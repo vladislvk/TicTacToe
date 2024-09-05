@@ -1,21 +1,17 @@
-//
-//  ContentView.swift
-//  TicTacToe
-//
-//  Created by vladislav kim on 04.09.2024.
-//
-
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+        ZStack(content: {
+            
+            /*@START_MENU_TOKEN@*/Text("Placeholder")/*@END_MENU_TOKEN@*/
+        }).background(.red)
+    }
+}
+
+struct TicButton:View {
+    var body: some View {
+        /*@START_MENU_TOKEN@*//*@PLACEHOLDER=Hello, world!@*/Text("Hello, world!")/*@END_MENU_TOKEN@*/
     }
 }
 
